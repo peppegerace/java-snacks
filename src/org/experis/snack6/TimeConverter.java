@@ -18,5 +18,7 @@ public class TimeConverter {
         String formattedTime = String.format("%02d:%02d:%02d", hours, minutes, seconds);
 
         System.out.println("Tempo convertito " + formattedTime);
+
+        scan.close();
     }
 }
